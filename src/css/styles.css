@@ -1,9 +1,4 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+
 @import url('./1-timer.css');
 @import url('./2-snackbar.css');
 :root {

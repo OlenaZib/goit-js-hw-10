@@ -9,6 +9,27 @@
 </head>
 
 <body>
+    <form class="form">
+        <label class="label-daley">
+            Delay (ms)
+            <input class="inp" type="number" name="delay" required />
+        </label>
+    
+        <fieldset class="dset">
+            <legend>State</legend>
+            <label class="label-ful">
+                <input type="radio" name="state" value="fulfilled" required />
+                Fulfilled
+            </label>
+            <label class="label-ful">
+                <input type="radio" name="state" value="rejected" required />
+                Rejected
+            </label>
+        </fieldset>
+    
+        <button class="btn"  type="submit">Create notification</button>
+    </form>
+
     <script type="module" src="./js/2-snackbar.js"></script>
 </body>
 
